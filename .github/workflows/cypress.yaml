@@ -63,8 +63,8 @@ jobs:
       env:
         # place your secret record key at
         # https://cloud.cypress.io/projects/jzgstc/settings
-        CYPRESS_RECORD_KEY: ${{ d7364e25-a989-4fbf-bfa5-38e3bed727b3.dashboardRecordKey }}
-        TERM: xterm
+       # CYPRESS_RECORD_KEY: ${{ d7364e25-a989-4fbf-bfa5-38e3bed727b3.dashboardRecordKey }}
+        #TERM: xterm
 
     # Save videos and screenshots as test artifacts
     # https://github.com/actions/upload-artifact
